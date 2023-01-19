@@ -6,9 +6,12 @@
     text-align: justify;
 }
 
+body{
+    background-color: #444D52;
+}
+
 main{
     min-height: 100vh;
-    background-color: #444D52;
 }
 
 #menu-nav{
@@ -16,8 +19,12 @@ main{
     display: flex;
     align-items: center;
 }
-#logo{
+.logo{
     margin-left: 5%;
+    width: 200px;
+}
+.logo img{
+    width: 100%;
 }
 #menu-ul{
     margin-left: 20%;
@@ -51,7 +58,7 @@ a{
 
 #coluna2{
     margin-left: 5%;
-    width: 24vw;
+    width: 26vw;
     background-color: blueviolet;
     margin-right: 5%;
     height: 125vh;
@@ -83,4 +90,54 @@ a{
 #est-cur td{
     border-bottom: 2px solid #737373;
     height: 45px;
+}
+
+.bloco-grande{
+    margin-left: 5%;
+    width: 89vw;
+    margin-right: 5%;
+    padding-bottom: 10%;
+}
+
+#tabela-disc td{
+    border-bottom: 2px solid #737373;
+    height: 45px;
+    width: 20vw;
+    padding: 6px;
+}
+
+#rotulo th{
+    height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nome-disc{
+    text-align: left;
+}
+
+#rodape{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(68,77,82,1) 0%, rgba(55,62,66,1) 100%);
+}
+
+#redes-sociais{
+    margin-left: 25%;
+}
+
+.github{
+    margin: 25% 0;
+}
+
+#endereco{
+    margin-left: 20%;
+    width: 25vw;
+}
+#endereco > .texto:first-child{
+    margin-bottom: 10%;
+}
+.destaque{
+    font-weight: 800;
 }
