@@ -4,7 +4,7 @@ const proximo = document.getElementById("proximo");
 const divAtual = document.getElementById("atual");
 const array = [
   {
-    titulo: "ENGENHEIRO DE SOFTWARE",
+    titulo: "ENGENHARIA DE SOFTWARE",
     texto:
       "Gosta de programação e quer trabalhar com desenvolvimento de softwares? Essa é uma das funções de quem atua com Engenharia de Software. Esses profissionais trabalham criando, desenhando e desenvolvendo jogos, aplicativos, plataformas e os mais diversos tipos de sistema. No entanto, além da parte de desenvolvimento, são responsáveis também por gerenciar projetos, alinhar expectativas com clientes e revisar e atualizar os programas desenvolvidos.",
     imagem: "..\\assets\\images\\engenheiro.jpeg",
