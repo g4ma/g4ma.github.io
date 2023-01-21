@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+body{
+    background-color: #444D52;
+}
+
+main{
+    min-height: 100vh;
+}
+
+#menu-nav{
+    height: 28vh;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 5%;
+    width: 200px;
+}
+.logo img{
+    width: 100%;
+}
+#menu-ul{
+    margin-left: 20%;
+    width: 37vw;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    list-style: none;
+    gap: 15%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#titulo{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+#linha{
+    display: flex;
+}
+
+#coluna1{
+    margin-left: 5%;
+    width: 53vw;
+    margin-right: 5%;
+}
+
+#coluna2{
+    margin-left: 5%;
+    width: 26vw;
+    background-color: blueviolet;
+    margin-right: 5%;
+    height: 125vh;
+}
+
+.subtitulo{
+    font-size: 1.2rem;
+    padding: 3%;
+    background-color:#737373;
+    margin-bottom: 4%;
+}
+
+.texto{
+    line-height: 2;
+}
+
+.bloco{
+    margin-bottom: 10%;
+}
+
+.nome{
+    width: 50vw;
+}
+
+.descricao{
+    text-align: right;
+}
+
+#est-cur td{
+    border-bottom: 2px solid #737373;
+    height: 45px;
+}
+
+.bloco-grande{
+    margin-left: 5%;
+    width: 89vw;
+    margin-right: 5%;
+    padding-bottom: 10%;
+}
+
+#tabela-disc td{
+    border-bottom: 2px solid #737373;
+    height: 45px;
+    width: 20vw;
+    padding: 6px;
+}
+
+#rotulo th{
+    height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nome-disc{
+    text-align: left;
+}
+
+#rodape{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(68,77,82,1) 0%, rgba(55,62,66,1) 100%);
+}
+
+#redes-sociais{
+    margin-left: 25%;
+}
+
+.github{
+    margin: 25% 0;
+}
+
+#endereco{
+    margin-left: 20%;
+    width: 25vw;
+}
+#endereco > .texto:first-child{
+    margin-bottom: 10%;
+}
+.destaque{
+    font-weight: 800;
+}
