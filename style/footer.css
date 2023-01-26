@@ -1,0 +1,25 @@
+#rodape{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(68,77,82,1) 0%, rgba(55,62,66,1) 100%);
+}
+
+#redes-sociais{
+    margin-left: 25%;
+}
+
+.github{
+    margin: 25% 0;
+}
+
+#endereco{
+    margin-left: 20%;
+    width: 25vw;
+}
+#endereco > .texto:first-child{
+    margin-bottom: 10%;
+}
+.destaque{
+    font-weight: 800;
+}

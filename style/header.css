@@ -1,0 +1,31 @@
+#menu-nav{
+    height: 28vh;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 5%;
+    width: 200px;
+}
+.logo img{
+    width: 100%;
+}
+#menu-ul{
+    margin-left: 28%;
+    width: 37vw;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    list-style: none;
+    gap: 15%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#titulo{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
