@@ -1,23 +1,30 @@
 #menu-nav{
+    margin-left: 4%;
     height: 28vh;
     display: flex;
     align-items: center;
 }
 .logo{
-    margin-left: 5%;
-    width: 200px;
+    width: 22vw;
 }
 .logo img{
     width: 100%;
 }
 #menu-ul{
-    margin-left: 28%;
+    margin-left: 24%;
     width: 37vw;
     font-size: 1.2rem;
     font-weight: 600;
     display: flex;
     list-style: none;
     gap: 15%;
+}
+#menu-ul a{
+    transition-duration: 3ms;
+}
+#menu-ul a:hover{
+    transition-duration: 5ms;
+    font-style: italic;
 }
 
 a{
