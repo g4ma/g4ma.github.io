@@ -8,23 +8,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <title>ADS - Introdução</title>
 </head>
 <body>
+    <header id="cabecalho">
+        <nav id="menu-nav">
+            <figure class="logo">
+                <img src="./assets/icons/logo-2.png" alt="Análise e Desenvolvimento de Sistemas">
+            </figure>
+            <ul id="menu-ul">
+                <a href="index.html"><li>Sobre o curso</li></a>
+                <a href="./pages/carreiras.html"><li>Carreiras</li></a>
+                <a href="./pages/divulgacao.html"><li>Divulgação</li></a>
+            </ul>
+        </nav>
+        <h1 id="titulo">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h1>
+    </header>
     <main>
-        <header id="cabecalho">
-            <nav id="menu-nav">
-                <figure class="logo">
-                    <img src="./assets/icons/logo.jpeg" alt="Análise e Desenvolvimento de Sistemas">
-                </figure>
-                <ul id="menu-ul">
-                    <a href="index.html"><li>Sobre o curso</li></a>
-                    <a href="..\pages\carreiras.html"><li>Carreiras</li></a>
-                    <a href="#"><li>Divulgação</li></a>
-                </ul>
-            </nav>
-            <h1 id="titulo">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h1>
-        </header>
         <div id="linha">
             <div id="coluna1">
             <div class="bloco">
@@ -61,7 +63,12 @@
                 </table>
             </div>
             </div>   
-            <div id="coluna2"></div>
+            <div id="coluna2">
+                <div id="barra-pesquisa">
+                    <input type="text" id="pesquisa">
+                    <img src="" alt="" id="icone-lupa">
+                </div>
+            </div>
         </div>
         <div class="bloco-grande">
             <h2 class="subtitulo">Disciplinas</h2>
@@ -138,17 +145,17 @@
     </main>
     <footer id="rodape">
         <figure class="logo">
-            <img src="./assets/icons/logo.jpeg" alt="Análise e Desenvolvimento de Sistemas">
+            <img src="./assets/icons/logo-2.png" alt="Análise e Desenvolvimento de Sistemas">
         </figure>
         <div id="redes-sociais">
             <div class="github">
-                <a href="#"><img src="./assets/icons/github.png" alt="logo do app"></a>
+                <a href="https://github.com/gabs44" target="_blank"><img src="./assets/icons/github.png" alt="logo do github"></a>
             </div>
             <div class="github">
-                 <a href="#"><img src="./assets/icons/github.png" alt="logo do app"></a>
+                 <a href="https://github.com/marysclair" target="_blank"><img src="./assets/icons/github.png" alt="logo do github"></a>
                 </div>
             <div class="github"> 
-                <a href="#"><img src="./assets/icons/github.png" alt="logo do app"></a>
+                <a href="https://github.com/maueici0" target="_blank"><img src="./assets/icons/github.png" alt="logo do github"></a>
             </div>
         </div>
         <div id="endereco">
