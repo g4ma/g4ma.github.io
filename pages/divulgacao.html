@@ -10,9 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
 
     
-    <link rel="stylesheet" href="/style/divulgacao.css">
     <link rel="stylesheet" href="/style/header.css">
     <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/divulgacao.css">
     
     <title>Divulgações</title>
     
@@ -20,6 +20,19 @@
 
 <body>
     
+    <header id="cabecalho">
+        <nav id="menu-nav">
+            <figure class="logo">
+                <img src="/assets/icons/logo-2.png" alt="Análise e Desenvolvimento de Sistemas">
+            </figure>
+            <ul id="menu-ul">
+                <a href="/index.html"><li>Sobre o curso</li></a>
+                <a href="/pages/carreiras.html"><li>Carreiras</li></a>
+                <a href="/pages/divulgacao.html"><li>Divulgação</li></a>
+            </ul>
+        </nav>
+    </header>
+
     <main>
 
         <div id="title">
@@ -50,7 +63,7 @@
                 <p class="event-info">
                     O SertãoComp, Encontro de Computação do Sertão, está com inscrições abertas para ouvintes. O evento apoiado pela Sociedade Brasileira de Computação (SBC) será realizado pelo campus Cajazeiras do IFPB, de 14 a 16 de outubro. O Sertão Comp ocorrerá de forma online e presencial. As inscrições são gratuitas.
                 </p>
-                <a href="https://www.even3.com.br/iii-sertaocomp/" class="event-link">Link para inscrições</a>
+                <a href="https://www.even3.com.br/iii-sertaocomp/" target="_blank" class="event-link">Link para inscrições</a>
             </div>
             
             <div class="infos">
@@ -58,12 +71,34 @@
                 <p class="event-info">
                     Considerada a maior vitrine de tecnologia da região Nordeste, a Expotec - Feira e Congresso de Tecnologia vai para sua 8ª edição este ano. Com o tema "Internet livre, neutra e global", o evento será realizado de 23 a 25 de novembro, no Centro de Convenções de João Pessoa, numa ação conjunta do Governo do Estado e Associação Nacional para Inclusão Digital (ANID), com o apoio do Comitê Gestor da Internet no Brasil (CGI.br/NIC.br).
                 </p>
-                <a href="https://www.even3.com.br/iii-sertaocomp/" class="event-link">Link para o site do evento.</a>
+                <a href="https://www.expotec.org.br/" target="_blank" class="event-link">Link para o site do evento.</a>
             </div>
 
         </div>
 
     </main>
+
+    <footer id="rodape">
+        <figure class="logo">
+            <img src="/assets/icons/logo-2.png" alt="Análise e Desenvolvimento de Sistemas">
+        </figure>
+        <div id="redes-sociais">
+            <div class="github">
+                <a href="https://github.com/gabs44" target="_blank"><img src="/assets/icons/github.png" alt="logo do github"></a>
+            </div>
+            <div class="github">
+                 <a href="https://github.com/marysclair" target="_blank"><img src="/assets/icons/github.png" alt="logo do github"></a>
+                </div>
+            <div class="github"> 
+                <a href="https://github.com/maueici0" target="_blank"><img src="/assets/icons/github.png" alt="logo do github"></a>
+            </div>
+        </div>
+        <div id="endereco">
+            <p class="texto"> <span class="destaque">Endereço:</span>
+                 147, R. José Antônio da, R. José Leôncio da Silva, 300 - Lot. Jardim Oasis, Cajazeiras - PB, 58900-000 </p>
+            <p class="texto"><span class="destaque">Telefone:</span> (83) 3532-4100</p>
+        </div>
+    </footer>
     
     <script src="/scripts/divulgacao.js"></script>
 </body>

@@ -4,6 +4,7 @@
     border: none;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
+    color: #fff;
 }
 
 body {
@@ -22,6 +23,15 @@ main {
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
+}
+
+header,
+footer {
+    width: 100%;
+}
+
+#rodape {
+    width: 100%;
 }
 
 h1,
@@ -79,7 +89,7 @@ h2 {
     gap: 10px;
 }
 
-.infos > p {
+.infos>p {
     color: #fff;
     text-align: justify;
     font-size: 1rem;
@@ -90,10 +100,16 @@ h2 {
     text-shadow: black 0.5px 0.5px 0.5px;
 }
 
-.event-link {
+.event-link:link,
+.event-link:visited {
     font-weight: bold;
     color: #0081c6;
     font-size: 1rem;
+    transition: all 0.5s;
+}
+
+.event-link:hover {
+    color: #2abbfe;
 }
 
 .btn {
