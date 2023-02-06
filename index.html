@@ -13,135 +13,92 @@
     <title>ADS - Introdução</title>
 </head>
 <body>
+    <nav id="menu-nav">
+        <figure class="logo">
+            <img src="./assets/icons/logo-2.png" alt="Análise e Desenvolvimento de Sistemas">
+        </figure>
+        <ul id="menu-ul">
+            <a href="index.html"><li>Sobre o curso</li></a>
+            <a href="./pages/carreiras.html"><li>Carreiras</li></a>
+            <a href="./pages/divulgacao.html"><li>Divulgação</li></a>
+        </ul>
+    </nav>
     <header id="cabecalho">
-        <nav id="menu-nav">
-            <figure class="logo">
-                <img src="./assets/icons/logo-2.png" alt="Análise e Desenvolvimento de Sistemas">
-            </figure>
-            <ul id="menu-ul">
-                <a href="index.html"><li>Sobre o curso</li></a>
-                <a href="./pages/carreiras.html"><li>Carreiras</li></a>
-                <a href="./pages/divulgacao.html"><li>Divulgação</li></a>
-            </ul>
-        </nav>
         <h1 id="titulo">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h1>
     </header>
     <main>
         <div id="linha">
             <div id="coluna1">
-            <div class="bloco">
-                <h2 class="subtitulo">Perfil</h2>
-                <p class="texto">O tecnólogo em Análise e Desenvolvimento de Sistemas analisa, projeta, documenta, especifica, testa, implanta e mantém sistemas computacionais de informação. Este profissional trabalha, também, com ferramentas computacionais, equipamentos de informática e metodologia de projetos na produção de sistemas. Raciocínio lógico, emprego de linguagens de programação e de metodologias de construção de projetos, preocupação com a qualidade, usabilidade, robustez, integridade e segurança de programas computacionais são fundamentais à atuação deste profissional.</p>
-            </div>
-            <div class="bloco">
-                <h2 class="subtitulo">Estrutura curricular</h2>
-                <table id="est-cur">
-                    <tr>
-                        <td class="nome">Carga Horária Mínima de Integralização:</td>
-                        <td class="descricao">2550h</td>
-                    </tr>
-                    <tr class="nome">
-                        <td>Trabalho de Conclusão de Curso:</td>
-                        <td class="descricao">66h</td>
-                    </tr>
-                    <t>
-                        <td class="nome">Período Mínimo de Integralização:</td>
-                        <td class="descricao">6</td>
-                    </tr>
-                    <tr>
-                        <td class="nome">Número Total de Vagas:</td>
-                        <td class="descricao">60</td>
-                    </tr>
-                    <tr>
-                        <td class="nome">1º Semestre:</td>
-                        <td class="descricao">30</td>
-                    </tr>
-                    <tr>
-                        <td class="nome">2º Semestre:</td>
-                        <td class="descricao">30</td>
-                    </tr>
-                </table>
-            </div>
+                <section id="bloco-perfil">
+                    <h2 class="subtitulo">Perfil</h2>
+                    <p class="texto">O tecnólogo em Análise e Desenvolvimento de Sistemas analisa, projeta, documenta, especifica, testa, implanta e mantém sistemas computacionais de informação. Este profissional trabalha, também, com ferramentas computacionais, equipamentos de informática e metodologia de projetos na produção de sistemas. Raciocínio lógico, emprego de linguagens de programação e de metodologias de construção de projetos, preocupação com a qualidade, usabilidade, robustez, integridade e segurança de programas computacionais são fundamentais à atuação deste profissional.</p>
+                </section>
+                <section id="bloco-est-cur">
+                    <h2 class="subtitulo">Estrutura curricular</h2>
+                    <table id="est-cur">
+                        <tr>
+                            <td class="nome">Carga Horária Mínima de Integralização:</td>
+                            <td class="descricao">2550h</td>
+                        </tr>
+                        <tr class="nome">
+                            <td>Trabalho de Conclusão de Curso:</td>
+                            <td class="descricao">66h</td>
+                        </tr>
+                        <t>
+                            <td class="nome">Período Mínimo de Integralização:</td>
+                            <td class="descricao">6</td>
+                        </tr>
+                        <tr>
+                            <td class="nome">Número Total de Vagas:</td>
+                            <td class="descricao">60</td>
+                        </tr>
+                        <tr>
+                            <td class="nome">1º Semestre:</td>
+                            <td class="descricao">30</td>
+                        </tr>
+                        <tr>
+                            <td class="nome">2º Semestre:</td>
+                            <td class="descricao">30</td>
+                        </tr>
+                    </table>
+                </section>
             </div>   
             <div id="coluna2">
-                <div id="barra-pesquisa">
-                    <input type="text" id="pesquisa">
-                    <img src="" alt="" id="icone-lupa">
-                </div>
+                <div id="links-uteis">
+                    <ul>
+                      <li><a href="#bloco-perfil">Perfil</a></li>
+                      <li><a href="#bloco-est-cur">Estrutura curricular</a></li>
+                      <li><a href="#bloco-disciplinas">Disciplinas</a></li>
+                    </ul>
+                  </div>
+                  <figure id="imagem-curso">
+                    <img src="http://www.ung.br/sites/ung.br/files/fields/imagemLateral/noticias/2021/07/code-1839406_1280.jpg" alt="Imagem ilustrativa referente ao curso de Análise e Desenvolvimento de Sistemas">
+                  </figure>
+                  <div id="sobre">
+                    <p class="texto">
+                      Esse segmento profissional é muito promissor, já que envolve tecnologia e sistemas computacionais – uma área com crescentes procuras por profissionais no mercado de trabalho.
+                    </p>
+                    <p class="texto">Se você está pensando em cursar Análise e Desenvolvimento de Sistemas, saiba que essa pode ser uma profissão repleta de oportunidades e que pode exigir muitas especializações profissionais no futuro. </p>
+                  </div>
             </div>
         </div>
-        <div class="bloco-grande">
+        <section id="bloco-disciplinas">
             <h2 class="subtitulo">Disciplinas</h2>
+            <div id="rotulo">
+                <button class="semestres" id="sem1">1º Semestre</button>
+                <button class="semestres" id="sem2">2º Semestre</button>
+                <button class="semestres" id="sem3">3º Semestre</button>
+                <button class="semestres" id="sem4">4º Semestre</button>
+                <button class="semestres" id="sem5">5º Semestre</button>
+                <button class="semestres" id="sem6">6º Semestre</button>
+            </div>
             <table id="tabela-disc">
-                <tr id="rotulo">
-                    <th>1º Semestre</th>
-                    <th>2º Semestre</th>
-                    <th>3º Semestre</th>
-                    <th>4º Semestre</th>
-                    <th>5º Semestre</th>
-                    <th>6º Semestre</th>
-                </tr>
-                <tr>
-                    <td class="nome-disc">Algoritmo e Lógica de programação</td>
-                    <td class="nome-disc">Estrutura de dados</td>
-                    <td class="nome-disc">Metodologia da Pesquisa científica</td>
-                    <td class="nome-disc">Análise e projeto de sistema</td>
-                    <td class="nome-disc">Programação para Dispositivos Móveis</td>
-                    <td class="nome-disc">Relações Humanas no trabalho</td>
-                </tr>
-                <tr>
-                    <td class="nome-disc">Calculo Diferencial e Integral</td>
-                    <td class="nome-disc">Introdução à redes de computadores</td>
-                    <td class="nome-disc">Programação Orientada a Objetos</td>
-                    <td class="nome-disc">Banco de Dados II</td>
-                    <td class="nome-disc">Segurança de Dados</td>
-                    <td class="nome-disc">Programação para Web II</td>
-                </tr>
-                <tr>
-                    <td class="nome-disc">Inglês Instrumental</td>
-                    <td class="nome-disc">Linguagens de Script</td>
-                    <td class="nome-disc">Sistemas Operacionais</td>
-                    <td class="nome-disc">Laboratório de Redes de computadores</td>
-                    <td class="nome-disc">Interação Humano Computador</td>
-                    <td class="nome-disc">Sistema Distribuídos</td>
-                </tr>
-                <tr>
-                    <td class="nome-disc">Linguagem de Marcação</td>
-                    <td class="nome-disc">Probalidade e Estatística</td>
-                    <td class="nome-disc">Bancos de Dados I</td>
-                    <td class="nome-disc">Testes de Software</td>
-                    <td class="nome-disc">Padrões de projeto de Software</td>
-                    <td class="nome-disc">Gestão da Tecnologia da Informação e Comunicação</td>
-                </tr>
-                <tr>
-                    <td class="nome-disc">Português Instrumental I</td>
-                    <td class="nome-disc">Gerência de Configuração e Mudanças</td>
-                    <td class="nome-disc">Processos de Software</td>
-                    <td class="nome-disc">Programação para Web I</td>
-                    <td class="nome-disc">Desenvolvimento de Aplicações Corporativas</td>
-                    <td class="nome-disc">Empreendedorismo</td>
-                </tr>
-                <tr>
-                    <td class="nome-disc">Fundamentos da Computação</td>
-                    <td class="nome-disc">Sociedade e Tecnologia da Informação</td>
-                    <td class="nome-disc"></td>
-                    <td class="nome-disc">Gerência de projetos de Software</td>
-                    <td class="nome-disc">Trabalho de Conclusão de Curso I</td>
-                    <td class="nome-disc">Trabalho de Conclusão de Curso II</td>
-                </tr>
-                <tr>
-                    <td class="nome-disc"></td>
-                    <td class="nome-disc"></td>
-                    <td class="nome-disc"></td>
-                    <td class="nome-disc"></td>
-                    <td class="nome-disc"></td>
-                    <td class="nome-disc">Libras I</td>
-                </tr>
+              <tbody id="conteudo-tabela"></tbody>
             </table>
-        </div>
-        <!-- <a href="" onclick="$('html,body').animate({scrollTop:0},'fast');return false;">
-             Voltar para o topo
-        </a> -->
+        </section>
+        <div id="atalho-topo">
+            <a href="#" id="btn"><img src="./assets/images/de-volta-ao-topo.png" alt=""> <p class="hidden" id="voltar-para-topo">Voltar para o topo</p></a>  
+        </div> 
     </main>
     <footer id="rodape">
         <figure class="logo">
@@ -164,5 +121,6 @@
             <p class="texto"><span class="destaque">Telefone:</span> (83) 3532-4100</p>
         </div>
     </footer>
+    <script src="..\scripts\main.js"></script>
 </body>
 </html>

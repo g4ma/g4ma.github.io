@@ -16,6 +16,9 @@
     margin: 25% 0;
 }
 
+.github:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 #endereco{
     margin-left: 24%;
     width: 26vw;
