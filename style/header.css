@@ -1,14 +1,18 @@
 #menu-nav{
     margin-left: 4%;
-    height: 28vh;
+    height: 16vh;
     display: flex;
     align-items: center;
+    top: 0;
+    position: sticky;
+    background-color: #444d52;
 }
 .logo{
     width: 22vw;
 }
 .logo img{
     width: 100%;
+    cursor: pointer;
 }
 #menu-ul{
     margin-left: 24%;
@@ -33,6 +37,6 @@ a{
 
 #titulo{
     margin-left: 5%;
-    margin-top: 1%;
+    margin-top: 4%;
     margin-bottom: 4%;
 }

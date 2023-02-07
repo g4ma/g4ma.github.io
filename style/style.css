@@ -28,16 +28,53 @@ main {
   line-height: 2;
 }
 
-.bloco {
+.nome {
+  height: 55px;
+  width: 60vw;
+}
+
+#coluna2 {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  width: 26vw;
+  margin-right: 5%;
+  height: 125vh;
+}
+
+#coluna1 > * {
   margin-bottom: 10%;
 }
 
-.nome {
-  width: 50vw;
+#links-uteis > ul > li {
+  margin-bottom: 7%;
+  list-style: none;
+  font-weight: 600;
 }
 
-.descricao {
-  text-align: right;
+#links-uteis > ul > li:hover {
+  font-style: italic;
+}
+#links-uteis > ul > li:last-of-type {
+  margin-bottom: 0;
+}
+
+#imagem-curso {
+  margin-top: 10%;
+  width: 16vw;
+  border: 6px solid #465054;
+}
+
+#imagem-curso img {
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+#sobre {
+  margin-top: 10%;
+  width: 19vw;
 }
 
 #est-cur td{
@@ -46,28 +83,72 @@ main {
     border-collapse: collapse;
 }
 
-.bloco-grande {
+#bloco-disciplinas {
+  margin-top: 5%;
   margin-left: 5%;
   width: 89vw;
   margin-right: 5%;
-  padding-bottom: 10%;
+  padding-bottom: 3%;
 }
-
 
 #tabela-disc td{
     border-bottom: 2px solid #505b60;
-    height: 45px;
-    width: 20vw;
+    height: 40px;
     padding: 6px;
     border-collapse: collapse;
 }
-
-#rotulo th {
-  height: 60px;
-  text-transform: uppercase;
-  text-align: center;
+#rotulo {
+  gap: 5%;
+  justify-content: center;
+  display: flex;
 }
 
+.docente {
+  width: 25vw;
+}
 .nome-disc {
   text-align: left;
+}
+
+.semestres {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.semestres:focus {
+  color: #2abbfe;
+}
+
+#atalho-topo {
+  margin-left: 5%;
+  width: 180px;
+}
+#voltar-para-topo:hover {
+  font-style: italic;
+}
+#btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  padding: 3%;
+  background-color: #465054;
+  margin-bottom: 4%;
 }
