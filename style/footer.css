@@ -5,12 +5,13 @@
     height: 45vh;
     display: flex;
     align-items: center;
+    gap: 22%;
     background: linear-gradient(180deg, rgba(68,77,82,1) 0%, rgba(55,62,66,1) 100%);
 }
 
-#redes-sociais{
-    margin-left: 20%;
-}
+.texto {
+    line-height: 2;
+  }
 
 .github{
     margin: 25% 0;
@@ -20,7 +21,6 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #endereco{
-    margin-left: 24%;
     width: 26vw;
 }
 #endereco > .texto:first-child{

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style/carreiras.css" />
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,10 +21,20 @@
     <title>Carreiras</title>
   </head>
   <body>
+    <nav id="menu-nav">
+        <figure class="logo">
+            <img src="../assets/icons/logo-2.png" alt="Análise e Desenvolvimento de Sistemas">
+        </figure>
+        <ul id="menu-ul">
+            <a href="../index.html"><li>Sobre o curso</li></a>
+            <a href="../pages/carreiras.html"><li>Carreiras</li></a>
+            <a href="../pages/divulgacao.html"><li>Divulgação</li></a>
+        </ul>
+    </nav>
     <main>
       <div class="inicio">
         <h1>CARREIRA NO MERCADO DA TI</h1>
-        <p>
+        <p class="texto">
           Nos últimos anos, a Tecnologia da Informação tem se destacado com uma
           das principais carreiras da atualidade, oferecendo altas chances de
           empregabilidade e boas perspectivas de remuneração. Com o forte avanço
@@ -50,6 +63,27 @@
         </div>
       </div>
     </main>
+    <footer id="rodape">
+      <figure class="logo">
+          <img src="../assets/icons/logo-2.png" alt="Análise e Desenvolvimento de Sistemas">
+      </figure>
+      <div id="redes-sociais">
+          <div class="github">
+              <a href="https://github.com/gabs44" target="_blank"><img src="../assets/icons/github.png" alt="logo do github"></a>
+          </div>
+          <div class="github">
+               <a href="https://github.com/marysclair" target="_blank"><img src="../assets/icons/github.png" alt="logo do github"></a>
+              </div>
+          <div class="github"> 
+              <a href="https://github.com/maueici0" target="_blank"><img src="../assets/icons/github.png" alt="logo do github"></a>
+          </div>
+      </div>
+      <div id="endereco">
+          <p class="texto"> <span class="destaque">Endereço:</span>
+               147, R. José Antônio da, R. José Leôncio da Silva, 300 - Lot. Jardim Oasis, Cajazeiras - PB, 58900-000 </p>
+          <p class="texto"><span class="destaque">Telefone:</span> (83) 3532-4100</p>
+      </div>
+  </footer>
     <script src="..\scripts\carreiras.js"></script>
   </body>
 </html>

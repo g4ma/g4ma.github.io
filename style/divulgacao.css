@@ -16,6 +16,7 @@ body {
 }
 
 main {
+    margin-top: 4%;
     width: 100%;
     max-width: 80vw;
     display: flex;
@@ -30,6 +31,10 @@ footer {
     width: 100%;
 }
 
+#menu-nav{
+    width: 96%;
+    position: static;
+}
 #rodape {
     width: 100%;
 }
